@@ -2,17 +2,19 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .link {
     display: inline-block;
     padding: 10px 20px;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid rgb(47, 105, 9);
+    color: rgb(51, 121, 7);
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .link.active {
-    background-color: red;
+    background-color: rgb(9, 110, 14);
     color: white;
 }

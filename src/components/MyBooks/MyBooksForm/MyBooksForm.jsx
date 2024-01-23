@@ -8,6 +8,10 @@ const INITIAL_STATE = {
     author: "",
 };
 
+const MyBooksForm = ({ onSubmit }) => {
+    //  до 1:15:37
+};
+/*
 class MyBooksForm extends Component {
     bookTitleId = nanoid();
     bookAuthorId = nanoid();
@@ -50,5 +54,5 @@ class MyBooksForm extends Component {
         )
     }
 }
-
+*/
 export default MyBooksForm;
